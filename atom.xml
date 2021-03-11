@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Welcome! | Biaogo&#39;s Blog</title>
+  
+  
+  <link href="https://biaogo.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://biaogo.github.io/"/>
+  <updated>2021-03-11T11:49:33.075Z</updated>
+  <id>https://biaogo.github.io/</id>
+  
+  <author>
+    <name>Biaogo</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第一个文章</title>
+    <link href="https://biaogo.github.io/post/fcd0.html"/>
+    <id>https://biaogo.github.io/post/fcd0.html</id>
+    <published>2021-03-11T11:49:33.000Z</published>
+    <updated>2021-03-11T11:49:33.075Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+</feed>
