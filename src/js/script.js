@@ -6,20 +6,27 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   // 初始标题
-
   var originalTitle = $('title').text();
   var intervalId; // 用于存储循环的ID
   $('title').shuffleLetters();
 
+  // 获取网页名称
+  function getPageName() {
+    var url = window.location.href;
+    var pageName = url.substring(url.lastIndexOf("/") + 1, url.lastIndexOf("."));
+    return pageName;
+  }
+
   // 开始循环变化标题
   function startTitleAnimation() {
     intervalId = setInterval(function() {
-      $('title').text('Biaogo$ _');
+      var pageTitle = "Biaogo$ " + getPageName();
+      $('title').text(pageTitle+"_");
       setTimeout(function() {
-        $('title').text('Biaogo$');
+        $('title').text(pageTitle);
       }, 500);
       setTimeout(function() {
-        $('title').text('Biaogo$');
+        $('title').text(pageTitle);
       }, 1000);
     }, 1500);
   }
